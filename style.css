@@ -378,13 +378,19 @@ dl dd {
   text-align: center;
 }
 
+.subtitle {
+  margin: 0.85rem 0;
+  text-align: center;
+}
+
 /* Sidenotes */
 
 .sidenote {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   float: right;
   clear: right;
   width: 18vw;
+  text-transform: none;
   margin-right: -20vw;
   margin-bottom: 1em;
 }
@@ -393,6 +399,7 @@ dl dd {
   float: left;
   margin-left: -20vw;
   margin-bottom: 1em;
+  text-align: left;
 }
 
 /* (WIP) add border when a sidenote is clicked on */

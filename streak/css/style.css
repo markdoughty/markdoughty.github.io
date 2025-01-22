@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    font-family: Poppins, Verdana, Tahoma, sans-serif;
+}
+
+header {
+
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2rem;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-color:cornflowerblue;
+}
+
+header #subTitle{
+  font-weight:normal;
+  font-size: 1.5rem;
+}
+
+footer {
+  font-weight: bold;
+  font-size: 1rem;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-color:cornflowerblue;
+}
+
+
+button {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color:white;
+  
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 5px 5px;
+  cursor: pointer;
+  color: #231ff2;
+}
+
+button:hover{
+    background-color:lightblue;
+}
+
+#id0 {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  background-color:lightgray;
+}

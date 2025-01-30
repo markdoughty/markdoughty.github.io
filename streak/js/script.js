@@ -160,57 +160,57 @@ function reset(el){
   	case "ra":
     	count[0] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[0];
-    	list.innerHTML = count[0];
+      list.innerHTML = "";
       break;
     case "rb":
       count[1] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[1];
-    	list.innerHTML = count[1];
+    	list.innerHTML = "";
       break;
     case "rc":
     	count[2] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[2];
-    	list.innerHTML = count[2];
+    	list.innerHTML = "";
       break;
     case "rd":
     	count[3] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[3];
-    	list.innerHTML = count[3];
+    	list.innerHTML = "";
       break;
     case "re":
       count[4] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[4];
-    	list.innerHTML = count[4];
+    	list.innerHTML = "";
       break;
     case "rf":
     	count[5] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[5];
-    	list.innerHTML = count[5];
+    	list.innerHTML = "";
       break;
     case "rg":
     	count[6] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[6];
-    	list.innerHTML = count[6];
+    	list.innerHTML = "";
       break;
     case "rh":
       count[7] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[7];
-    	list.innerHTML = count[7];
+    	list.innerHTML = "";
       break;
     case "ri":
     	count[8] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[8];
-    	list.innerHTML = count[8];
+    	list.innerHTML = "";
       break;
     case "rj":
     	count[9] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[9];
-    	list.innerHTML = count[9];
+    	list.innerHTML = "";
       break;
     case "rk":
       count[10] = 0;
     	list = document.getElementById("id0").getElementsByTagName("span")[10];
-    	list.innerHTML = count[10];
+    	list.innerHTML = "";
       break;
     default:
   }

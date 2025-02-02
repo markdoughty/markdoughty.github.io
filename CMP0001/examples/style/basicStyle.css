@@ -54,7 +54,29 @@ footer .footer-centre {
     align-content: center;
   }
 
+  section {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 0;
+  }
+
+  article {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    flex: auto;
+    
+  }
+
+  aside {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    flex: auto;
+  }
+
   .box{
+    flex-direction: column;
     border: 2px solid black;
     padding: 20px;
     margin-top: 10px;

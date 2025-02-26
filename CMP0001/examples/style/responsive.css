@@ -128,6 +128,10 @@ nav {
         text-decoration: none;
         font-size: 18px;
     }
+
+    .grid-container>.box{
+        font-size: 1rem;
+    }
     
 }
 
@@ -190,7 +194,7 @@ nav {
     color: #fff;
     border-radius: 5px;
     padding: 20px;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .a {
     grid-column: 1 / span 1;

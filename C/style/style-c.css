@@ -89,137 +89,6 @@ nav {
 }
 
 
-/* Basic Hero and Content Styling */
-.hero {
-    flex: 1;
-    padding: 1rem; 
-    text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/landscape-unsplash.jpg");
-    min-height:100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 3;
-}
-
-.hero h1{
-    color:lightgray;
-    font-size: 2rem;
-    font-weight: bold;
-
-}
-
-.hero p{
-    color:lightgray;
-    font-size: 1.5rem;
-    font-weight:normal;
-}
-
-
-.flex-container{
-    display: flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.flex-container > div {
-    background-color: #f1f1f1;
-    opacity: 0.5;
-    border-radius: 5px;
-    margin: 2rem;
-    padding: 1.5rem;
-    width: 90px;
-    height: 90px;
-    font-size: 0.7rem;
-  }
-
-  .grid-container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: #444;
-  }
-  .boxList {
-    background-color: #444;
-    opacity: 0.7;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 0.9rem;
-
-  }
- 
-
-  .box {
-    background-color: #444;
-    opacity: 0.7;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 0.7rem;
-  }
-
-  .hero li{
-    text-align: left;
-  }
-
-  .grid-container-lists {
-    display: grid;
-    grid-gap: 50px;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    color: #444;
-  }
-  .aList {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  .bList {
-    grid-column: 1 ;
-    grid-row: 2;
-  }
-  .cList {
-    grid-column: 1 ;
-    grid-row: 3 ;
-  }
-  .dList {
-    grid-column: 1;
-    grid-row: 4;
-  }
-  .a {
-    grid-column: 1 / span 1;
-    grid-row: 1;
-  }
-  .b {
-    grid-column: 3 ;
-    grid-row: 1 / 3;
-  }
-  .c {
-    grid-column: 1 ;
-    grid-row: 2 ;
-  }
-  .d {
-    grid-column: 2;
-    grid-row: 2;
-  }
-
-
-.content {
-    text-align: center;
-    padding: 2rem;
-}
-
-footer {
-    margin-top:auto;
-    background-color:lightgray;
-    color:black;
-    min-height:50px;
-    padding: 30px;
-    text-align: center;
-}
-
 /* Styles for Larger Screens (Media Query) */
 @media (min-width: 768px) {
     nav {
@@ -259,28 +128,66 @@ footer {
         text-decoration: none;
         font-size: 18px;
     }
-
-    .grid-container-lists {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        color: #1b2e1f;
-      }
-      .aList {
-        grid-column: 1;
-        grid-row: 1;
-      }
-      .bList {
-        grid-column: 2;
-        grid-row: 1;
-      }
-      .cList {
-        grid-column: 1 ;
-        grid-row: 2;
-      }
-      .dList {
-        grid-column: 2;
-        grid-row: 2;
-      }
     
+}
+
+
+/* Basic Hero and Content Styling */
+.hero {
+    flex: 1;
+    padding: 1rem; 
+    text-align: center;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/landscape-unsplash.jpg");*/
+    min-height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+
+.hero h1{
+    color:lightgray;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.hero p{
+    color:lightgray;
+    font-size: 1.5rem;
+    font-weight:normal;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    opacity: 0.5;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 1.5rem;
+    width: 90px;
+    height: 90px;
+    font-size: 0.7rem;
+  }
+
+
+.content {
+    text-align: center;
+    padding: 2rem;
+}
+
+footer {
+    margin-top:auto;
+    background-color:lightgray;
+    color:black;
+    min-height:50px;
+    padding: 30px;
+    text-align: center;
 }
